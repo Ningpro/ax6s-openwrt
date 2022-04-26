@@ -17,6 +17,9 @@
 sed -i 's/192.168.1.1/192.168.18.233/g' package/base-files/files/bin/config_generate
 
 #
+sed -i 's/OpenWrt/MyWifi/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+#
 sed -i 's/OpenWrt/Android/g' package/base-files/files/bin/config_generate
 
 #
